@@ -1,0 +1,14 @@
+development:
+  dialect: postgres
+  database: buissiness-card_development
+  user: postgres
+  password: mysecretpassword
+  host: 127.0.0.1
+  port: 15432
+  pool: 2
+
+test:
+  url: {{env0r "TEST_DATABASE_URL" "postgres://postgres:mysecretpassword@127.0.0.0:15432/buissiness-card_test?sslmode=disable"}}
+
+production:
+  url: {{env0r "DATABASE_URL" "postgres://postgres:mysecretpassword@127.0.0.0:15432/buissiness-card_production?sslmode=disable"}}
