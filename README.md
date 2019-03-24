@@ -2,6 +2,11 @@
 
 [Buffalo – Rapid Web Development in Go](https://gobuffalo.io/en)を触ってみる。
 
+Buffalo自体がgitレポジトリになってしまっているので、サブモジュール扱いになってしまう。
+めんどうなので、そのまま利用することにしたので、写経したコードは[こちら](https://github.com/cipepser/business_card-sample)。
+
+本レポジトリにはハマったところのメモなどを記載する。
+
 ## TODOリスト（bussiness-card）
 
 [Business\-card in GoBuffalo \- Part 1 \- My Code Smells\!](https://mycodesmells.com/post/business-card-in-gobuffalo---part-1)をやってみる。
